@@ -38,3 +38,7 @@
   height: $size;
   width: $size;
 }
+
+@mixin calendar-width {
+  width: 7 * $cell-size + 6 * $gap-value + 2 * $padding-value;
+}
