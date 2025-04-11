@@ -30,7 +30,7 @@
 
 @each $day, $i in $calendar-days {
   .calendar--start-day-#{$day} .calendar__day:nth-child(1) {
-    margin-left: $cell-size * $i + $i;
+    margin-left: $cell-size * $i + $i * $gap-value;
   }
 }
 
